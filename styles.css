@@ -26,6 +26,7 @@
   }
   
   .nav {
+    width: 100%;
     max-width: 1400px;
     margin: auto;
     padding: 18px 30px;
@@ -71,11 +72,14 @@
    
   /* HERO */
   .hero {
-    padding-left: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 100vh;
     padding-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     align-items: flex-start;
   }
   
@@ -86,11 +90,13 @@
     padding: 40px 30px;
     margin-top: 40px;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    gap: 20px;
+    justify-content: center;
   }
   
   .casting-card {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     background: #ffffff;
     color: #000;
     border-radius: 18px;
@@ -116,15 +122,15 @@
   
   /* HERO TEXT */
   .hero-text { 
-    white-space: nowrap;
     display: flex;
     margin-top: 50px;
-    text-align: left;
-    max-width: none;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 80px;
+   
+   
   }
   
   .open {
@@ -143,6 +149,7 @@
     font-size: 72px;
     line-height: 1.05;
     font-weight: 900;
+    width: 100%;
     max-width: 900px;
   }
   
@@ -156,19 +163,21 @@
   }
   
   .cta {
-    margin-top: 200px;
+  
     width: 100%;
-    min-height: 70vh;
+    min-height: 90vh;
     background: linear-gradient(
       180deg,
       #0f0f0f 0%,
-      #1a1a1a 100%
+      #3c3c3c 100%
     );
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     align-items: flex-start;
     text-align: center;
-    padding: 80px 20px;
+  
   }
   
   .cta-content {
@@ -206,4 +215,6 @@
     transform: translateY(-2px);
     box-shadow: 0 10px 30px rgba(255,106,0,.4);
   }
+ 
+
  
