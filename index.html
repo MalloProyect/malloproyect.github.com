@@ -1,82 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Castings | Wuara Media</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contador Interactivo</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <main class="app">
+    <h1>Contador</h1>
 
-<header class="header">
-  <div class="nav">
-    <div class="logo">WUARA</div>
-    <nav class="menu">
-      <a>HOME</a>
-      <a class="active">CASTINGS</a>
-      <a>NOSOTROS</a>
-      <a>PATROCINIO</a>
-      <a>CONTACTO</a>
-      <span class="admin">ADMIN</span>
-    </nav>
-  </div>
-</header>
+    <section class="panel contador-panel" aria-live="polite">
+      <p class="label">Recuento actual</p>
+      <p id="count" class="value">0</p>
+    </section>
 
-<main class="hero">
+    <section class="controls">
+      <button id="decrement" class="btn btn-decrement" type="button">- Disminuir</button>
+      <button id="increment" class="btn btn-increment" type="button">+ Incrementar</button>
+    </section>
 
-    <!-- TEXTO CENTRAL -->
-  <section class="hero-text">
-    <span class="open">POSICIONES ABIERTAS</span>
+    <section class="stats" aria-live="polite">
+      <div class="panel">
+        <p class="label">Clics en incrementar</p>
+        <p id="incClicks" class="value small">0</p>
+      </div>
+      <div class="panel">
+        <p class="label">Clics en disminuir</p>
+        <p id="decClicks" class="value small">0</p>
+      </div>
+    </section>
+  </main>
 
-    <h1>
-      ÚNETE A NUESTRO PRÓXIMO PROYECTO 
-    </h1>
-
-    <p class="subtitle">
-      Siempre buscamos voces auténticas e historias reales.<br>
-      No se requiere experiencia — solo sé tú mismo.
-    </p>
-  </section>
-
-  <!-- Tarjetas de busquedas -->
-  <aside class="left-cards">
-    <div class="casting-card">
-      <span class="date">Jan 29</span>
-      <strong>BUSCAMOS</strong>
-      <p>5 SOLTEROS Y 5 SOLTERAS</p>
-      <img src="img/5vs5.jpg" alt="Castings" class="card-img">
-    </div>
-
-    <div class="casting-card">
-      <span class="date">Jan 23</span>
-      <strong>BUSCAMOS</strong>
-      <p> 6 HOMBRES</p>
-      <img src="img/hombres.jpg" alt="Castings" class="card-img">
-    </div>
-
-    <div class="casting-card">
-      <span class="date">Jan 22</span>
-      <strong>BUSCAMOS</strong>
-      <p>PROTAGONISTAS PARA UN VIDEO DE CITAS
-      </p>
-      <img src="img/protas.jpg" alt="Castings" class="card-img">
-    </div>
-  </aside>
-  <section class="cta">
-    <div class="cta-content">
-      <h2>¿NO ENCUENTRAS LO QUE BUSCAS?</h2>
-  
-      <p>
-        Siempre estamos interesados en escuchar personas con historias únicas.
-        Contáctanos y creemos algo increíble juntos.
-      </p>
-  
-      <a href="#" class="cta-btn">Contáctanos</a>
-    </div>
-  </section>
-
-</main>
-
-
+  <script src="script.js"></script>
 </body>
 </html>
