@@ -1,0 +1,72 @@
+[
+  {
+    "id": "15cb5645-c11f-4684-8f88-c3ec2da07375",
+    "firstName": "Ana",
+    "lastName": "Rojas",
+    "email": "ana.rojas@empresa.com",
+    "contactNumber": "+34 612 889 120",
+    "salary": 1850,
+    "birthDate": "1993-02-11",
+    "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
+  },
+  {
+    "id": "67f7e8f2-0d6f-4b63-a2f4-c6f90e6f7468",
+    "firstName": "Luis",
+    "lastName": "Martinez",
+    "email": "luis.martinez@empresa.com",
+    "contactNumber": "+34 621 555 980",
+    "salary": 2200,
+    "birthDate": "1989-07-24",
+    "imageUrl": ""
+  },
+  {
+    "id": "1f9c0aa8-2f8e-4fd6-8e1a-4b8a50db1773",
+    "firstName": "Camila",
+    "lastName": "Vega",
+    "email": "camila.vega@empresa.com",
+    "contactNumber": "+34 633 101 227",
+    "salary": 2400,
+    "birthDate": "1995-11-03",
+    "imageUrl": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=200&q=80"
+  },
+  {
+    "id": "8f2f5f12-6c30-4f3d-a295-0fd996f8d7f4",
+    "firstName": "Javier",
+    "lastName": "Ortega",
+    "email": "javier.ortega@empresa.com",
+    "contactNumber": "+34 655 390 812",
+    "salary": 2700,
+    "birthDate": "1987-03-19",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80"
+  },
+  {
+    "id": "26923d45-0aa2-4714-9d54-a7168392f770",
+    "firstName": "Sofia",
+    "lastName": "Herrera",
+    "email": "sofia.herrera@empresa.com",
+    "contactNumber": "+34 611 774 441",
+    "salary": 2100,
+    "birthDate": "1992-09-14",
+    "imageUrl": ""
+  },
+  {
+    "id": "d04852b9-5948-4f54-a937-c80f7f926251",
+    "firstName": "Diego",
+    "lastName": "Navarro",
+    "email": "diego.navarro@empresa.com",
+    "contactNumber": "+34 620 018 664",
+    "salary": 1950,
+    "birthDate": "1998-01-28",
+    "imageUrl": "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&fit=crop&w=200&q=80"
+  },
+  {
+    "id": "f5d8bcf2-ec00-48b4-8f59-910114d43764",
+    "firstName": "Valeria",
+    "lastName": "Campos",
+    "email": "valeria.campos@empresa.com",
+    "contactNumber": "+34 644 902 315",
+    "salary": 2600,
+    "birthDate": "1990-05-06",
+    "imageUrl": "https://images.unsplash.com/photo-1542204625-de293a6b417a?auto=format&fit=crop&w=200&q=80"
+  }
+]
